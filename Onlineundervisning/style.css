@@ -1,0 +1,91 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+  }
+
+.material-icons {
+    font-size: 36px;
+    color: rgb(73, 170, 255);
+    margin-bottom: 5px;
+  }
+  
+  .main-description {
+    color: rgb(73, 170, 255);
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .card {
+    width: 150px;/* Sets the width of the card */
+    display: flex; /* A Flex-Box is used for all the children (card = Parent, Card-header, card-body = Children */
+    flex-direction: column; /* It rotates the axis */
+    border: 1px solid rgb(73, 170, 255); /* Adds a border */
+    border-radius: 6px; /* Smoothens the corners of the cards */
+    overflow: hidden; /* Fixes the smooth corners */
+    margin: 2px; /* adds spacing between the cards */
+  }
+
+  .card-header {
+    color: rgb(22, 112, 202);
+    text-align: center;
+    font-size: 18px;
+    padding: 2px;
+    font-weight: 501;
+    border-bottom: 1px solid rgb(73, 170, 255);
+    background-color: rgb(73, 170, 255);
+  }
+
+  .card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+
+
+
+
+  /* IDs for additional colors*/
+  /* Colors from Google Material Design: https://material.io/guidelines/style/color.html*/
+  
+  #or-border {
+    border-color: #FFE082;
+  }
+  
+  #or-header {
+    background-color: #FFF8E1;
+    border-color: #FFE082;
+    color: #FFA000;
+  }
+  
+  #or-color {
+    color: #FFA000;
+  }
+  
+  #red-border {
+    border-color: #EF9A9A;
+  }
+  
+  #red-header {
+    background-color: #FFEBEE;
+    border-color: #EF9A9A;
+    color: #D32F2F;
+  }
+  
+  #red-color {
+    color: #D32F2F;
+  }
+  
